@@ -8,7 +8,7 @@ body {
 a {
   color: black;
 }
-
+/* Header */
 header {
   display: flex;
   border-bottom: solid 1px black;
@@ -39,4 +39,31 @@ nav {
 nav span {
   display: inline-block;
   padding-left: 40px;
+}
+/* Header */
+
+.main {
+  display: flex;
+}
+
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  height: auto;
+  border: 2px solid black;
+}
+
+.column.medium {
+  display: flex;
+  flex-direction: column;
+  with: 300px;
+  border: 2px solid black;
+}
+
+.column.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 2px solid black;
 }
