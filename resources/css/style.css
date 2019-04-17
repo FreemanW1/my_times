@@ -8,6 +8,7 @@ body {
 a {
   color: black;
 }
+
 /* Header */
 header {
   display: flex;
@@ -41,3 +42,39 @@ nav span {
   padding-left: 40px;
 }
 /* Header */
+
+/* Content */
+
+.content {
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 2px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 638px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+/* Content */
